@@ -15,14 +15,3 @@ dnmonster:
 
 redis:
   image: redis:3.0
-
-storage:
-  filesystem:
-    rootdirectofy: /var/lib/registry
-
-http:
-  addr: joo:5000
-  secret: 9Ci5B8SN0yB5wa11t0oEHuUbn5wTLYWd
-  tls:
-    certificate: /certs/domain.crt
-    key: /certs/domain.key
